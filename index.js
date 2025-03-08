@@ -15,7 +15,7 @@ for (let i = 0; i < 252; i++){
     if (square.style.backgroundColor == ""){
       square.style.backgroundColor = "black"
     } else {
-      square.style.backgroundColor = "white"
+      square.style.backgroundColor = ""
     }
   })
   game.appendChild(square)
