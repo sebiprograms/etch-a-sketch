@@ -7,3 +7,5 @@ javascript, which albiet is not pretty. But I do feel like I came out the
 other side with more confidence in my ability to manipulate dom nodes.
 
 ## Try it
+
+Live preview: [Etch-a-Sketch](https://sebiprograms.github.io/etch-a-sketch/)
