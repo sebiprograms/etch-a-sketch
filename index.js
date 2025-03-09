@@ -27,6 +27,14 @@ function sixteen(){
     game.appendChild(square)
   }
 }
+//returns display size 288px references 16x16 width and 576px for thirtytwo 
+function whatRatio(){
+  if (game.style.width == "288px"){
+    return "sixteen"
+  } else if (game.style.width == "576px"){
+    return "thirtytwo"
+  }
+}
 
 // its like the remove function but swag
 function removeBetter(){
