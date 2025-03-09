@@ -28,13 +28,14 @@ function sixteen(){
   }
 }
 //returns display size 288px references 16x16 width and 576px for thirtytwo 
-function whatRatio(){
+// Deprecated but I liked the function so keeping it here
+/*function whatRatio(){
   if (game.style.width == "288px"){
     return "sixteen"
   } else if (game.style.width == "576px"){
     return "thirtytwo"
   }
-}
+}*/
 
 // its like the remove function but swag
 function removeBetter(){
@@ -69,8 +70,12 @@ function thirtytwo(){
 
 const button1 = document.createElement("button")
 const button2 = document.createElement("button")
+button1.textContent = "16x16"
+button2.textContent = "32x32"
 announcement.appendChild(button1)
 announcement.appendChild(button2)
+
+button1.addEventListener()
 
 // Initial board
 sixteen()
