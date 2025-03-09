@@ -57,8 +57,6 @@ function thirtytwo(){
   }
 }
 
-sixteen()
-thirtytwo()
 
 const label = document.createElement("label")
 const select = document.createElement("select")
@@ -67,10 +65,21 @@ const option2 = document.createElement("option")
 option1.textContent = "16 x 16"
 option2.textContent = "32 x 32"
 label.textContent = "Aspect Ratio"
+option1.value = 0;
+option2.value = 1;
 
 select.appendChild(option1)
 select.appendChild(option2)
 announcement.appendChild(label)
 label.appendChild(select)
 
-option1.addEventListener("click", )
+select.addEventListener("change", (e) => {
+  if (e.value == 0) {
+    sixteen()
+  } else if (e.value == 1) {
+    thirtytwo()
+  }
+})
+
+// Initial board
+sixteen()
