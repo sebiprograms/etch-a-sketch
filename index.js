@@ -20,8 +20,9 @@ function sixteen(){
     square.style.borderColor = "rgba(3, 3, 3, 0.3)"
     square.style.width = "16px"
     square.style.height = "16px"
+        square.style.backgroundColor = "white"
     square.addEventListener("mouseover", () => {
-      if (square.style.backgroundColor == ""){
+      if (square.style.backgroundColor == "white"){
         square.style.backgroundColor = "black"
       } else {
         //square.style.backgroundColor = ""
@@ -60,8 +61,9 @@ function thirtytwo(){
     square.style.borderColor = "rgba(3, 3, 3, 0.3)"
     square.style.width = "16px"
     square.style.height = "16px"
+    square.style.backgroundColor = "white"
     square.addEventListener("mouseover", () => {
-      if (square.style.backgroundColor == ""){
+      if (square.style.backgroundColor == "white"){
         square.style.backgroundColor = "black"
       } else {
         //square.style.backgroundColor = ""
