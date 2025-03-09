@@ -20,11 +20,11 @@ function sixteen(){
     square.style.borderColor = "rgba(3, 3, 3, 0.3)"
     square.style.width = "16px"
     square.style.height = "16px"
-    square.addEventListener("click", () => {
+    square.addEventListener("mouseover", () => {
       if (square.style.backgroundColor == ""){
         square.style.backgroundColor = "black"
       } else {
-        square.style.backgroundColor = ""
+        //square.style.backgroundColor = ""
       }
     })
     game.appendChild(square)
@@ -60,11 +60,11 @@ function thirtytwo(){
     square.style.borderColor = "rgba(3, 3, 3, 0.3)"
     square.style.width = "16px"
     square.style.height = "16px"
-    square.addEventListener("click", () => {
+    square.addEventListener("mouseover", () => {
       if (square.style.backgroundColor == ""){
         square.style.backgroundColor = "black"
       } else {
-        square.style.backgroundColor = ""
+        //square.style.backgroundColor = ""
       }
     })
     game.appendChild(square)
