@@ -37,7 +37,9 @@ function removeBetter(){
 
 function thirtytwo(){
   removeBetter()
-  boxes = 5
+  boxes = 1024
+  game.style.width = "576px"
+  game.style.height = "256px"
   for (let i = 0; i < boxes; i++){
     const square = document.createElement("div")
     square.className = "square"
@@ -74,11 +76,8 @@ announcement.appendChild(label)
 label.appendChild(select)
 
 select.addEventListener("change", (e) => {
-  if (e.value == 0) {
-    sixteen()
-  } else if (e.value == 1) {
-    thirtytwo()
-  }
+  console.log(e)
+  thirtytwo()
 })
 
 // Initial board

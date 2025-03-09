@@ -1,3 +1,6 @@
+body {
+  display: flex;
+}
 #announcement {
   margin: 50px;
 }
