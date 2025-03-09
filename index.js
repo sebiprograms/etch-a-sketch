@@ -9,6 +9,8 @@ let boxes = 256
 // Sets aspect ratio to 16x16
 function sixteen(){
   removeBetter()
+  game.style.width = "288px"
+  game.style.height = "256px"
   for (let i = 0; i < boxes; i++){
     const square = document.createElement("div")
     square.className = "square"
@@ -75,7 +77,13 @@ button2.textContent = "32x32"
 announcement.appendChild(button1)
 announcement.appendChild(button2)
 
-button1.addEventListener()
+button1.addEventListener("click", () => {
+  sixteen()
+})
+
+button2.addEventListener("click", () => {
+  thirtytwo()
+})
 
 // Initial board
 sixteen()
