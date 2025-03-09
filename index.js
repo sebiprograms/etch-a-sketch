@@ -67,26 +67,10 @@ function thirtytwo(){
   }
 }
 
-
-const label = document.createElement("label")
-const select = document.createElement("select")
-const option1 = document.createElement("option")
-const option2 = document.createElement("option")
-option1.textContent = "16 x 16"
-option2.textContent = "32 x 32"
-label.textContent = "Aspect Ratio"
-option1.value = 0;
-option2.value = 1;
-
-select.appendChild(option1)
-select.appendChild(option2)
-announcement.appendChild(label)
-label.appendChild(select)
-
-select.addEventListener("change", (e) => {
-  console.log(e)
-  thirtytwo()
-})
+const button1 = document.createElement("button")
+const button2 = document.createElement("button")
+announcement.appendChild(button1)
+announcement.appendChild(button2)
 
 // Initial board
 sixteen()
