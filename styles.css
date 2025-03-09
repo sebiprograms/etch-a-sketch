@@ -7,7 +7,7 @@ body {
   background-color: #2c5c4d; 
   padding: 10px;
   object-fit: contain;
-  box-shadow: 3px 3px 10px 8px #2f6454;
+  box-shadow: 3px 3px 10px 4px #2f6454;
 }
 
 h1 {
@@ -15,6 +15,7 @@ h1 {
   font-family: Arial, sans-serif;
   margin: 0;
 }
+
 
 
 
@@ -31,7 +32,18 @@ h1 {
 #announcement {
   margin-top: 20px;
   align-self: center;
+}
 
+button {
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0cap;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1.5px 1.5px 3px;
 }
 
 .footer {
