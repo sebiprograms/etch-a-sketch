@@ -11,6 +11,7 @@ function sixteen(){
   removeBetter()
   game.style.width = "288px"
   game.style.height = "256px"
+  boxes = 256
   for (let i = 0; i < boxes; i++){
     const square = document.createElement("div")
     square.className = "square"
