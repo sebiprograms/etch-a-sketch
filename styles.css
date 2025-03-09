@@ -1,6 +1,10 @@
 body {
   background-color: #40826D;
   margin: 0px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  height: 800px
 }
 
 .header {
