@@ -1,4 +1,5 @@
 const game = document.querySelector("#game")
+const announcement = document.querySelector("#announcement")
 game.style.width = "288px"
 game.style.height = "256px"
 game.style.display = "flex"
@@ -26,10 +27,7 @@ for (let i = 0; i < boxes; i++){
   game.appendChild(square)
 }
 
-function resize() {
-  game.remove(".square")
-}
-resize()
+
 
 const label = document.createElement("label")
 const select = document.createElement("select")
@@ -38,6 +36,6 @@ option.textContent = "16 x 16"
 label.textContent = "Aspect Ratio"
 
 select.appendChild(option)
-game.appendChild(label)
+announcement.appendChild(label)
 
 label.appendChild(select)
