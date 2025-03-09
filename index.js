@@ -5,8 +5,12 @@ game.style.display = "flex"
 game.style.flexWrap = "wrap"
 let boxes = 256
 
+
+
+
 for (let i = 0; i < boxes; i++){
   const square = document.createElement("div")
+  square.className = "square"
   square.style.border = "solid"
   square.style.borderWidth = ".1px"
   square.style.borderColor = "rgba(3, 3, 3, 0.3)"
@@ -21,6 +25,12 @@ for (let i = 0; i < boxes; i++){
   })
   game.appendChild(square)
 }
+
+function resize() {
+  game.remove(".square")
+}
+resize()
+
 const label = document.createElement("label")
 const select = document.createElement("select")
 const option = document.createElement("option")
